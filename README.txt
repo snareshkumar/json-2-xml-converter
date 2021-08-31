@@ -16,10 +16,23 @@ file with JSON arbitrary information.
 
     a) If you are using the IDE, you can pull this project from github and import as maven project, and
        then by passing two input file names via commandline argument we can able to execute this program.
-    b) Create JAR file and run it via Command Prompt
+    b) JAR file already created using IDE under /out/artifacts/json_2_xml_converter_jar/json-2-xml-converter.jar
+    c) Using the above JAR you can run by passing the below command.
 
+    Run Command :
+
+    java -jar json-2-xml-converter.jar example.json output.xml
+
+    Output(After successful conversion)
+
+    Document Writer Finished
+    JSON2XMLGeneration Success
 
 4 Github Repository information
+
+    git clone https://github.com/snareshkumar/json-2-xml-converter.git
+
+
 
 
 
